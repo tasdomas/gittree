@@ -18,10 +18,8 @@ func main() {
 		panic(err)
 	}
 
-	var fname *string
-	if len(os.Args) == 3 {
-		fname = &os.Args[2]
-	}
+	fname := &os.Args[2]
+
 	logOpts := gogit.LogOptions{
 		Order:    gogit.LogOrderCommitterTime,
 		FileName: fname,
