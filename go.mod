@@ -2,4 +2,4 @@ module github.com/tasdomas/gittree
 
 go 1.13
 
-require gopkg.in/src-d/go-git.v4 v4.13.1 // indirect
+require gopkg.in/src-d/go-git.v4 v4.13.1
